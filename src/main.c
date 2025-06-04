@@ -41,6 +41,7 @@ int main(void) {
         }
         else if(hash){
           cambio=true;
+          hash=false;
         }
         else if(car!='x'){
           contrar[a++]=car;
